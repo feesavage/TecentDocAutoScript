@@ -1,10 +1,14 @@
 # TencentDocumentAutoScript
 
-1. 首先<font color='red'> **pip install selenium**</font>
-2. 修改第16行为想要自动填写的链接。
-3. 修改44行代码为想要自动填写的时间，登录成功后，在控制台输入y，等待成功填写即可。
+> 本电脑使用的python = 3.9  ,selenium  = 4.36.0，如果遇到版本错误，请使用该版本。
 
-​	![](https://cdn.jsdelivr.net/gh/feesavage/typora_imagesBed@main/images/202410311030147.png)
+1. 首先<font color='red'> **pip install selenium**</font>
+2. 修改URL为想要自动填写的链接。
+3. 修改188行代码为想要自动填写的时间，登录成功后，在控制台输入y，等待成功填写即可。
+4. 提供了三种功能，文本填写，下拉菜单选取以及单选选择，如果用不到注释掉相应部分的代码即可
+5. 注意时间，2025/11/21，如果遇到检测不到相应的元素时，腾讯文档应该更新了，修改代码开头的XPATH全局变量即可。
+
+
 
 
 

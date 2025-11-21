@@ -51,7 +51,7 @@ RADIO_XPATH = './/div[@role="radio"]'
 # 填写完毕后，页面关闭的等待时间（s）
 N = 10
 #填写的URl,用户自己修改
-URL = "https://docs.qq.com/form/page/DZWR3aUVLaWh2Uk9U"
+URL = "url"
 
 def find_all_dropdowns():
     """
